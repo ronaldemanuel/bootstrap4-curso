@@ -13,6 +13,24 @@
     font-family: 'Pacifico', cursive;
 }
 
-.cor-destaque {
+.card-largura {
+    max-width: 18rem;
+}
+
+.texto-cor-destaque {
     color: darkred;
+}
+
+.botao-cor-destaque {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-destaque {
+    border: 1px solid darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;;
+    height: 200px;
 }
