@@ -26,6 +26,11 @@
     color: white;
 }
 
+.botao-cor-destaque:hover {
+    background-color: #550000;
+    color: white;
+}
+
 .borda-cor-destaque {
     border: 1px solid darkred;
 }
