@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#">fruta & fruto</a>
+            <a class="navbar-brand fonte-titulo" id="titulo-cor-destaque" href="#">fruta & fruto</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -123,17 +123,21 @@
         </section>
     </main>
     
+    <footer class="bg-secondary p-3">
+        <p class="text-light m-0 text-center">contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+    </footer>
+
     <!-- Modal -->
     <div class="modal fade" id="modalContato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
+            <dialog class="modal-content">
+                <header class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
-                <div class="modal-body">
+                </header>
+                <main class="modal-body">
                     <form>
                         <div class="form-group">
                             <label for="formGroupExampleInput">Nome completo</label>
@@ -148,17 +152,15 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insira aqui seu comentário"></textarea>
                         </div>
                     </form>
-                </div>
-                <div class="modal-footer">
+                </main>
+                <footer class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                     <button type="button" class="btn botao-cor-destaque">Enviar</button>
-                </div>
-            </div>
+                </footer>
+            </dialog>
         </div>
     </div>
-        
-    <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
-
+ 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

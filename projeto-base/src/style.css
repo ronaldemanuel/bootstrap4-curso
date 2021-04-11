@@ -17,6 +17,7 @@
     max-width: 18rem;
 }
 
+#titulo-cor-destaque,
 .texto-cor-destaque {
     color: darkred;
 }
