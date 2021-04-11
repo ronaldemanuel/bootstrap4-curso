@@ -9,6 +9,10 @@
     height: 400px;
 }
 
-.titulo-carrossel {
+.fonte-titulo {
     font-family: 'Pacifico', cursive;
+}
+
+.cor-destaque {
+    color: darkred;
 }
